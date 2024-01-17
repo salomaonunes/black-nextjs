@@ -15,6 +15,8 @@ export const getStaticProps: GetStaticProps = async () => {
         props: {
             staticData,
         },
+        //Used to set ISR
+        revalidate: 10,
     };
 };
 
